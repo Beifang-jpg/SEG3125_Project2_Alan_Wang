@@ -10,14 +10,14 @@ const Navbar = () => {
             borderRadius: '10px' 
         }}>Front Page</a>
 
-        <a href="/" style={{
+        <a href="/Community" style={{
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
         }}>Community</a>
 
 
-        <a href="/create" style={{ 
+        <a href="/SignOrCreate" style={{ 
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 

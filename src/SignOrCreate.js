@@ -1,8 +1,8 @@
 const SignOrCreate = () => {
     return ( 
-        <div className="SignOrCreate">
+        <div className="Enter_Name">
             <h1>Enter UserName</h1>
-            <h2>Enter</h2>
+            <h2>Update later</h2>
         </div>
      );
 }

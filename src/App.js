@@ -2,6 +2,7 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import SignOrCreate from './SignOrCreate';
+import Community from './Community';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route exact path="/SignOrCreate">
               <SignOrCreate/>
+            </Route>
+            <Route exact path="/Community">
+              <Community/>
             </Route>
           </Switch>
         </div>
