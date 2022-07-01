@@ -1,27 +1,29 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
       <nav className="navbar">
         <h1>3125 Studio</h1>
         <div className="links">
 
-        <a href="/" style={{
+        <Link to="/"><a style={{
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Front Page</a>
+        }}>Front Page</a></Link>
 
-        <a href="/Community" style={{
+        <Link to="Community" s><a tyle={{
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Community</a>
+        }}>Community</a></Link>
 
 
-        <a href="/SignOrCreate" style={{ 
+        <Link to="SignOrCreate"><a style={{ 
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Sign in /Create Account</a>
+        }}>Sign in /Create Account</a></Link>
         </div>
       </nav>
     );
