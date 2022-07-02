@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Home = () => {
   const [blogs, setBlogs] = useState([
-    { title: 'Guide Through make changes', body: 'This will lead to Guide page', subtitle: 'Click Here and Start', id: 1 },
+    { title: 'Guide Through', body: 'This will lead to Guide page', subtitle: 'Click Here and Start', id: 1 },
     { title: 'Not the First time', body: 'This will lead to Booking page', subtitle: 'Click to Book', id: 2 },
   ])
 
