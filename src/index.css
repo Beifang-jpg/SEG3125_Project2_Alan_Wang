@@ -71,8 +71,17 @@
   margin: 40px 0;
 }
 
+/* contect */
+
+.contect_page{
+  text-align: center;
+  padding: 20px 30px;
+  margin: 40px 0;
+}
+
 /* community */
-.Community{
+.Community_text{
+  color: aqua;
   text-align: center;
   padding: 20px 30px;
   margin: 40px 0;
