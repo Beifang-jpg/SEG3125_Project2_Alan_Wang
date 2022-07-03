@@ -12,7 +12,7 @@ const Navbar = () => {
             borderRadius: '10px' 
         }}>Front Page</a></Link>
 
-        <Link to="Community" s><a tyle={{
+        <Link to="Community" ><a style={{
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
