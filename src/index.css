@@ -10,7 +10,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #aebcc3;
 }
@@ -44,9 +44,7 @@
   padding: 20px 30px;
   margin: 40px 0;
 
-
-
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #c7c3c3;
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -55,6 +53,9 @@
   font-size: 20px;
   color: #6689af;
   margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
 }
 
 .Image{
@@ -85,4 +86,107 @@
   text-align: center;
   padding: 20px 30px;
   margin: 40px 0;
+}
+/* remove connect下划线 */
+.blog-preview_contect a{
+  text-decoration: none;
+}
+/* connect page */
+.blog-preview_contect {
+  max-width: 1300px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+
+  border-bottom: 1px solid #c7c3c3;
+}
+.blog-preview_contect:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview_contect h2 {
+  font-size: 20px;
+  color: #6689af;
+  margin-bottom: 8px;
+}
+
+/* Ottawa */
+
+.Ottawa_info {
+  max-width: 1900px;
+  max-height: 1500px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+
+.Ottawa_info a{
+  text-decoration: none;
+}
+.Ottawa_one a{
+  text-decoration: none;
+}
+.Ottawa_two a{
+  text-decoration: none;
+}
+
+/* Montreal */
+
+.Montreal {
+  max-width: 1900px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+
+.Montreal a{
+  text-decoration: none;
+}
+/* Toronto */
+
+.Toronto {
+  max-width: 1900px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  text-emphasis-color: #6689af;
+}
+
+.Toronto a{
+  text-decoration: none;
+}
+.Toronto_one a{
+  text-decoration: none;
+}
+.Toronto_two a{
+  text-decoration: none;
+}
+
+/* sign */
+.Sign_in a{
+  text-decoration: none;
+}
+
+/* create */
+.create_Account a{
+  text-decoration: none;
+}
+
+/* SignOrCreate */
+.SignOrCreate a{
+  text-decoration: none;
 }

@@ -1,0 +1,18 @@
+{
+    "blogs": [
+      {
+        "title": "Our Stuido in Ottawa",
+        "body": "Why do we utc.",
+        "author": "mario",
+        "id": 1
+      },
+      {
+        "title": "Opening Party!",
+        "body": "dac words etc.",
+        "author": "yoshi",
+        "id": 2
+      }
+    ]
+  }
+
+  

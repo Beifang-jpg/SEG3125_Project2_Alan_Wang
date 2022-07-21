@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Community = () => {
+const Guide = () => {
     const [blogs, setBlogs] = useState([
-        { title: '我想发中文内容', body: 'Community_CH', subtitle: '我们会把您发布的内容同步翻译成英文', id: 1 },
-        { title: 'I would like post in English', body: 'Community_EN', subtitle: 'We will translate your post in Chinese also', id: 2 },
+        { title: '我想要中文引导', body: 'Guide_CH', subtitle: '点击开始', id: 1 },
+        { title: 'I would like English guide', body: 'Guide_EN', subtitle: 'Click Here and Start', id: 2 },
     ])
 
     return (
@@ -19,4 +20,4 @@ const Community = () => {
       );
 }
  
-export default Community;
+export default Guide;

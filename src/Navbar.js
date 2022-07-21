@@ -10,31 +10,31 @@ const Navbar = () => {
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Front Page</a></Link>
+        }}>Front Page/首页</a></Link>
 
         <Link to="Community" ><a style={{
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Community</a></Link>
+        }}>Community/社区</a></Link>
 
         <Link to="SignOrCreate"><a style={{ 
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Sign in /Create Account</a></Link>
+        }}>Sign in or Create Account/登入或注册</a></Link>
 
-        <Link to="Get_Start"><a style={{ 
+        <Link to="Get_Start_EN"><a style={{ 
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Get Start</a></Link>  
+        }}>Get Start/要改</a></Link>  
 
         <Link to="contect"><a style={{ 
             color: 'white', 
             backgroundColor: '#6689af',
             borderRadius: '10px' 
-        }}>Contect Us</a></Link>
+        }}>Contect Us/找到我们</a></Link>
         </div>
       </nav>
     );
