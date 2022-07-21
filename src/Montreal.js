@@ -1,25 +1,43 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
+import { Container } from 'react-bootstrap';
+import { Row, Col, Figure, Button, Image, Dropdown, Form } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Montreal_pic from './img/Montreal_pic.png';
 const Montreal = () => {
-    return ( 
+
+    const [blogs, setBlogs] = useState([
+        { title: 'English Service', Phone: 'Phone: 404-877-888', subtitle: 'Email:3125Studio_Montreal_two_En@gmail.com', id: 1 },
+        { title: '中文客服', Phone: '电话: 411-452-777', subtitle: '邮箱:3125Studio_Montreal_two_CH@gmail.com', id: 2 },
+        { title: '工作时间/Working time', Phone: 'Mon-Fri: 10am-9pm', subtitle: 'Sat-Sun: 10am-10pm', id: 2 },
+
+    ])
+    return (
         <div className="Montreal">
-            <Link to={`/Contect`}>
-            <h1>Montreal Studios / 蒙特利尔的门店</h1>
-            <h2>Click this back to contect/点击返回上一步</h2>
 
-
-            <h3>Email:3125Studio_Montreal_En@gmail.com</h3>
-            <h3>邮箱:3125Studio_Montreal_CH@gmail.com</h3>
-
-            <h3>Call Us in English: 777-564-123</h3>
-            <h3>中文客服: 777-566-999</h3>
-
-            <h2>Studio1 / 一号工作室</h2>
-
-            </Link>
+            <Container fluid>
+                <Row>
+                    <Col sm={7}>
+                        <div className="Image">
+                            <img src={Montreal_pic} alt="Montreal_pic" />
+                        </div>
+                    </Col>
+                    <Col sm={5}>
+                        <Link to={`/Contect`}>
+                            {blogs.map(blog => (
+                                <div className="blog-preview" key={blog.id}>
+                                        <h1>{blog.title} </h1>
+                                        <p>{blog.Phone} </p>
+                                        <p> {blog.subtitle} </p>
+                                </div>
+                            ))}
+                        </Link>
+                    </Col>
+                </Row>
+            </Container>
         </div>
-     );
+    );
 }
- 
+
 export default Montreal;

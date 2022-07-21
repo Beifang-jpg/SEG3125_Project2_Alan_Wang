@@ -29,12 +29,19 @@
   color: #07070593;
 }
 .content {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
 }
 
 /* Home */
+.home{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
 .blog-preview {
   max-width: 1300px;
   align-items: center;
@@ -126,6 +133,28 @@
   margin: 40px 0;
   color: #6689af;
 }
+.Ottawa_one {
+  max-width: 1900px;
+  max-height: 1500px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+.Ottawa_two {
+  max-width: 1900px;
+  max-height: 1500px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
 
 .Ottawa_info a{
   text-decoration: none;
@@ -166,6 +195,27 @@
   text-emphasis-color: #6689af;
 }
 
+.Toronto_one {
+  max-width: 1900px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+.Toronto_two {
+  max-width: 1900px;
+  align-items: center;
+
+  text-align: left;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+
 .Toronto a{
   text-decoration: none;
 }
@@ -188,5 +238,23 @@
 
 /* SignOrCreate */
 .SignOrCreate a{
+  text-decoration: none;
+}
+.Sign_in {
+  max-width: 1000px;
+  max-height: 1500px;
+  align-items: center;
+
+  text-align: center;
+  display: block;
+  padding: 20px 30px;
+  margin: 40px 0;
+  color: #6689af;
+}
+
+.Community_EN a{
+  text-decoration: none;
+}
+.Community_CH a{
   text-decoration: none;
 }

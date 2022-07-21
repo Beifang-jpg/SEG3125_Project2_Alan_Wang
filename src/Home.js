@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from './img/Logo.png';
 
+import { Container } from 'react-bootstrap';
+import { Row, Col, Figure, Button, Image, Dropdown, Form } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
   const [blogs, setBlogs] = useState([
@@ -10,23 +14,42 @@ const Home = () => {
 
   return (
     <div className="home">
+      <Container fluid>
+        <Row>
+          <Col sm={5}>
+            <div className="Image">
+              <img src={Logo} alt="Logo"  />
+            </div>
+          </Col>
+          <Col sm={7}>
+            {blogs.map(blog => (
+              <div className="blog-preview" key={blog.id} >
+                <Link to={`/${blog.place}`}>
+                  <h2>{blog.title}</h2>
+                  <p>{blog.subtitle}</p>
+                </Link>
+              </div>
+            ))}
+          </Col>
+        </Row>
+      </Container>
 
-      {blogs.map(blog => (
+      {/* {blogs.map(blog => (
         <div className="blog-preview" key={blog.id} >
           <Link to={`/${blog.place}`}>
-          <h2>{ blog.title }</h2>
-          <p>{ blog.subtitle }</p>
+            <h2>{blog.title}</h2>
+            <p>{blog.subtitle}</p>
           </Link>
         </div>
-      ))}
+      ))} */}
 
-        <div>
-        <div className="Image">
-        <img src="/Logo.png" alt="" />
-        </div>
-        </div>
-        </div>
+      <div>
+        {/* <div className="Image">
+          <img src={Logo} alt="Logo" style={{ width: '300px' }} />
+        </div> */}
+      </div>
+    </div>
   );
 }
- 
+
 export default Home;

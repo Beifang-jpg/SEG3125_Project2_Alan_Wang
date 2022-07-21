@@ -7,16 +7,18 @@ import { Row, Col, Figure, Button, Image, Dropdown, Form } from 'react-bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Community from "./Community";
 
-const Sign_in = () => {
+const Guide_CH = () => {
 
     const [blogs, setBlogs] = useState([
-        { title: 'Enter your Email/输入您的邮箱', place: 'Sign_in', subtitle: '', id: 1 },
-        { title: 'Enter your Password/输入您的密码', place: 'Sign_in', subtitle: '', id: 2 },
-        { title: 'Click here to sign in!/登录！', place: '', subtitle: '', id: 3 },
+        { title: '您可以通过上方的按钮进入任意界面', place: 'Guide_CH', subtitle: '', id: 1 },
+        { title: '如果您是新用户，可以通过创建账户加入我们的工作室', place: 'Guide_CH', subtitle: '使用【登入或注册】', id: 2 },
+        { title: '创建之后可以通过【开始】预约我们的服务', place: 'Guide_CH', subtitle: '开始改装您的爱车', id: 3 },
+        { title: '您也可以通过【社区】分享您的想法', place: 'Guide_CH', subtitle: '或者观摩其他人的想法', id: 4 },
+        { title: '来，试一下点击这里跳转到注册界面', place: 'Create_A', subtitle: '加入我们吧！', id: 4 },
 
     ])
     return (
-        <div className="Sign_in">
+        <div className="Guide_CH">
             <Container fluid>
                 <Row>
                     <Col sm={4}>
@@ -42,4 +44,4 @@ const Sign_in = () => {
     );
 }
 
-export default Sign_in;
+export default Guide_CH;
