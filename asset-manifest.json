@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SEG3125_Project2_Alan_Wang/static/css/main.a8701a9c.css",
-    "main.js": "/SEG3125_Project2_Alan_Wang/static/js/main.2d215289.js",
+    "main.js": "/SEG3125_Project2_Alan_Wang/static/js/main.ed08728e.js",
     "static/js/787.f6b2eaaf.chunk.js": "/SEG3125_Project2_Alan_Wang/static/js/787.f6b2eaaf.chunk.js",
     "static/media/Ott_1.png": "/SEG3125_Project2_Alan_Wang/static/media/Ott_1.e34680cb51a6db9489cf.png",
     "static/media/Montreal_pic.png": "/SEG3125_Project2_Alan_Wang/static/media/Montreal_pic.33172100557a8daad54d.png",
@@ -13,11 +13,11 @@
     "static/media/car.jpg": "/SEG3125_Project2_Alan_Wang/static/media/car.390e2010ebea156d69b5.jpg",
     "index.html": "/SEG3125_Project2_Alan_Wang/index.html",
     "main.a8701a9c.css.map": "/SEG3125_Project2_Alan_Wang/static/css/main.a8701a9c.css.map",
-    "main.2d215289.js.map": "/SEG3125_Project2_Alan_Wang/static/js/main.2d215289.js.map",
+    "main.ed08728e.js.map": "/SEG3125_Project2_Alan_Wang/static/js/main.ed08728e.js.map",
     "787.f6b2eaaf.chunk.js.map": "/SEG3125_Project2_Alan_Wang/static/js/787.f6b2eaaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8701a9c.css",
-    "static/js/main.2d215289.js"
+    "static/js/main.ed08728e.js"
   ]
 }
