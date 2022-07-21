@@ -5,20 +5,20 @@ import { Container } from 'react-bootstrap';
 import { Row, Col, Figure, Button, Image, Dropdown, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Nromal_CH = () => {
+const Better_EN = () => {
     const [blogs, setBlogs] = useState([
-        { title: '您可以用下方的工具调整参数', place: 'Get_Start_CH', subtitle: '或者点击这里返回', id: 1 ,more:''},
-        { title: '整车颜色', place: 'Nromal_CH', subtitle: '调整', id: 2 ,more:'磨砂度'},
-        { title: '车身细节', place: 'Nromal_CH', subtitle: '调整', id: 3 ,more:'另一个'},
-        { title: '内部细节', place: 'Nromal_CH', subtitle: '底盘', id: 4 ,more:'引擎'},
-        { title: '车胎', place: 'Nromal_CH', subtitle: '轮毂', id: 5 ,more:'材质'},
-        { title: '内饰部分', place: 'Nromal_CH', subtitle: '皮革材质', id: 5 ,more:'其他'},
-        { title: '您有更多的灵感？', place: 'Nromal_CH', subtitle: '成为我们的高级会员', id: 4 ,more:''},
-        { title: '提交！', place: '', subtitle: '将您的订单上传到我们的工作室', id: 5 ,more:''},
+        { title: 'You can adjust the parameters using the tools below', place: 'Get_Start_EN', subtitle: 'Or click here to return', id: 1 ,more:''},
+        { title: 'Vehicle color', place: 'Better_EN', subtitle: 'Adjust', id: 2 ,more:'Grind arenaceous'},
+        { title: 'Body details', place: 'Better_EN', subtitle: 'Adjust', id: 3 ,more:'Another Angle'},
+        { title: 'Internal details', place: 'Better_EN', subtitle: 'Chassis', id: 4 ,more:'Engine'},
+        { title: 'Tire', place: 'Better_EN', subtitle: 'Wheel hub', id: 5 ,more:'The material'},
+        { title: 'The interior', place: 'Better_EN', subtitle: 'Leather material', id: 5 ,more:'Others'},
+        { title: 'You have more inspiration?', place: 'Better_EN', subtitle: 'Click to chet with our staff online', id: 4 ,more:'And discuss your cherished idea!'},
+        { title: 'Submit Your Order!', place: '', subtitle: 'We will get your order shortly', id: 4 ,more:''},
     ])
 
     return (
-        <div className="Normal_CH">
+        <div className="Better_EN">
             <Container fluid>
                 <Row>
                     <Col sm={8}>
@@ -43,4 +43,4 @@ const Nromal_CH = () => {
     );
 }
 
-export default Nromal_CH;
+export default Better_EN;

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Get_Start_EN = () => {
     const [blogs, setBlogs] = useState([
         { title: 'Normal Customize ', place: 'Nromal_EN', subtitle: 'Book online and View it in 3D', id: 1 },
-        { title: 'Haute Customize ', place: 'Nothing', subtitle: 'Talk to our Staff to make your specail design', id: 2 },
+        { title: 'Haute Customize ', place: 'Better_EN', subtitle: 'Talk to our Staff to make your specail design', id: 2 },
         { title: 'Previous Page ', place: 'Book_homepage', subtitle: 'Back to language', id: 3 },
     ])
 

@@ -7,13 +7,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Nromal_EN = () => {
     const [blogs, setBlogs] = useState([
-        { title: 'You can adjust the parameters using the tools below', place: '', subtitle: 'Or click here to return', id: 1 ,more:''},
-        { title: 'Vehicle color', place: '', subtitle: 'Adjust', id: 2 ,more:'Grind arenaceous'},
-        { title: 'Body details', place: '', subtitle: 'Adjust', id: 3 ,more:'Another Angle'},
-        { title: 'Internal details', place: '', subtitle: 'Chassis', id: 4 ,more:'Engine'},
-        { title: 'Tire', place: '', subtitle: 'Wheel hub', id: 5 ,more:'The material'},
-        { title: 'The interior', place: '', subtitle: 'Leather material', id: 5 ,more:'Others'},
-        { title: 'You have more inspiration？', place: '', subtitle: 'Become our premium member', id: 4 ,more:''},
+        { title: 'You can adjust the parameters using the tools below', place: 'Get_Start_EN', subtitle: 'Or click here to return', id: 1 ,more:''},
+        { title: 'Vehicle color', place: 'Nromal_EN', subtitle: 'Adjust', id: 2 ,more:'Grind arenaceous'},
+        { title: 'Body details', place: 'Nromal_EN', subtitle: 'Adjust', id: 3 ,more:'Another Angle'},
+        { title: 'Internal details', place: 'Nromal_EN', subtitle: 'Chassis', id: 4 ,more:'Engine'},
+        { title: 'Tire', place: 'Nromal_EN', subtitle: 'Wheel hub', id: 5 ,more:'The material'},
+        { title: 'The interior', place: 'Nromal_EN', subtitle: 'Leather material', id: 5 ,more:'Others'},
+        { title: 'You have more inspiration?', place: 'Nromal_EN', subtitle: 'Become our premium member', id: 4 ,more:''},
+        { title: 'Submit Your Order!', place: '', subtitle: 'We will get your order shortly', id: 4 ,more:''},
     ])
 
     return (

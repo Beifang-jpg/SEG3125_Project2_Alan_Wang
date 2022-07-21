@@ -25,7 +25,8 @@ import Community_CH from './Community_CH';
 import Community_EN from './Community_EN';
 import Fake_Community_EN from './Fake_Community_EN';
 import Fake_Community_CH from './Fake_Community_CH';
-
+import Better_CH from './Better_CH';
+import Better_EN from './Better_EN';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { isCompositeComponent } from 'react-dom/test-utils';
@@ -50,6 +51,12 @@ function App() {
             </Route>
             <Route exact path="/Get_Start_EN">
               <Get_Start_EN />
+            </Route>
+            <Route exact path="/Better_EN">
+              <Better_EN />
+            </Route>
+            <Route exact path="/Better_CH">
+              <Better_CH />
             </Route>
             <Route exact path="/Community">
               <Community />
