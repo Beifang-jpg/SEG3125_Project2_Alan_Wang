@@ -29,7 +29,6 @@ import Better_CH from './Better_CH';
 import Better_EN from './Better_EN';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { isCompositeComponent } from 'react-dom/test-utils';
 
 
 function App() {
